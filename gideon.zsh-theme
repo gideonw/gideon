@@ -1,5 +1,5 @@
 
-PROMPT='> $fg[red]%T $(git_prompt_info) $fg_bold[red]%n$fg_bold[white]@$fg[red]%m$fg_bold[white]:$fg[yellow]%~$reset_color
+PROMPT='> $fg[blue]%T$reset_color $(git_prompt_info) $fg[red]%n$reset_color$fg_bold[white]@$reset_color$fg_bold[red]%m$fg_bold[white]:$fg[yellow]%~$reset_color
 %(!.#.$) '
 # git theming
 ZSH_THEME_GIT_PROMPT_PREFIX="$fg[green]("
